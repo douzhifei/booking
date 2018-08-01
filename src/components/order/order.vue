@@ -37,7 +37,7 @@
       <div class="item">
         <div class="item-left item-left-remark">备注</div>
         <div class="item-right item-right-remark">
-          <textarea v-model="form.remark" class="remark" />
+          <input v-model="form.remark" class="remark" >
         </div>
       </div>
     </div>

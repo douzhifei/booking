@@ -95,6 +95,8 @@ export default {
     clear () {
       this.yourBooking = []
       this.reLoad = false
+      this.timeStart = '请设置'
+      this.timeEnd = '请设置'
       setTimeout(() => {
         this.reLoad = true
       }, 10)
