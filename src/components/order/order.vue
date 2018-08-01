@@ -225,8 +225,6 @@ export default {
       .item-right-remark
         align-items flex-start
         .remark
-          width 250px
-          height 80px
           border-color $color-background
   .service
     width 94%
